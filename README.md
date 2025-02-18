@@ -72,7 +72,7 @@ dummyjson-client
 3. Acesse o serviço:
 
     O serviço estará disponível em: `http://localhost:8080/api/health`
-    O serviço de consulta estrá disponivel em: http://localhost:8080/api/products .
+    O serviço de consulta estrá disponivel em: `http://localhost:8080/api/products` .
 
 ### Executar Testes
 
