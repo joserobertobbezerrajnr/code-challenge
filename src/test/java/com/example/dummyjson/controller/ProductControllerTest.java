@@ -84,7 +84,7 @@ public class ProductControllerTest {
 
     @Test
     public void testHealthEndpoint() throws Exception {
-        mockMvc.perform(get("/health"))
+        mockMvc.perform(get("/api/health"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.status", equalTo("UP")));
     }
