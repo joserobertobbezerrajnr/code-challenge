@@ -21,13 +21,14 @@ dummyjson-client
 │   ├── main
 │   │   ├── java
 │   │   │   └── com.example.dummyjsonclient
-│   │   │       ├── DummyJsonClientApplication.java
 │   │   │       ├── config
-│   │   │       │   └── RestTemplateConfig.java
+│   │   │       │   └── ProductClientConfig.java
 │   │   │       ├── controller
 │   │   │       │   └── ProductController.java
+│   │   │       │   └── HealthController.java
 │   │   │       ├── dto
 │   │   │       │   └── Product.java
+│   │   │       │   └── ProductListResponse.java
 │   │   │       ├── service
 │   │   │       │   └── ProductService.java
 │   │   └── resources
@@ -36,7 +37,7 @@ dummyjson-client
 │       ├── java
 │       │   └── com.example.dummyjsonclient
 │       │       ├── config
-│       │       │   └── RestTemplateConfigTest.java
+│       │       │   └── ProductClientConfigTest.java
 │       │       └── controller
 │       │       │   └── ProductControllerTest.java
 │       │       ├── dto
