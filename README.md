@@ -59,8 +59,7 @@ dummyjson-client
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/WendellTufano/code-challenge-migration.git
-    cd dummyjson-client
+    git clone https://github.com/joserobertobbezerrajnr/code-challenge
     ```
 
 2. Compile e execute o projeto:
@@ -72,7 +71,8 @@ dummyjson-client
 
 3. Acesse o serviço:
 
-    O serviço estará disponível em `http://localhost:8080`.
+    O serviço estará disponível em: `http://localhost:8080/api/health`
+    O serviço de consulta estrá disponivel em: http://localhost:8080/api/products .
 
 ### Executar Testes
 
